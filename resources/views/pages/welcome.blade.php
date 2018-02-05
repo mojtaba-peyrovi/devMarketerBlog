@@ -1,4 +1,14 @@
 @extends('main')
+
+@section('title','| Homepage')
+
+
+
+@section('stylesheets')
+    <link rel="stylesheet" href="/css/master.css">
+@endsection
+
+
 @section('content')
     <div class="row">
         <div class="col-md-12">
@@ -39,4 +49,7 @@
             </div>
       </div>
 
+@endsection
+@section('scripts')
+    <script src="js/main.js" charset="utf-8"></script>
 @endsection
