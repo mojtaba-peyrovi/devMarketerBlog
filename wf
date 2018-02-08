@@ -1,0 +1,41 @@
+[33mcommit b52f99000a3c53e259930e733c8fca2ba0bb2e62[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: = <=>
+Date:   Wed Feb 7 16:09:23 2018 +0700
+
+    enbd of pary 18, learned html tag dl, php truncate string, php date function and laravel collectives which is a useful tool but not included in new laravel versions but we can add them manually
+
+[33mcommit 938bed4f18841a8feb6722f23e3b9c2828f965af[m
+Author: = <=>
+Date:   Tue Feb 6 11:14:27 2018 +0700
+
+    end of part 14, learned to add Parsley.js for js form validation, how to use resource http verb, how to check php artisan route:list and use named routes. also learned how to use sessions and flash messaging.
+
+[33mcommit 6148ce3dbfb7a13b067a639731237250082ca03c[m
+Author: = <=>
+Date:   Mon Feb 5 15:52:48 2018 +0700
+
+    end of part 12 - insert post data to database
+
+[33mcommit 20ec9c61a0453e33b87ba31b61424a51912456ac[m
+Author: = <=>
+Date:   Mon Feb 5 14:38:45 2018 +0700
+
+    made migration- end of part 9
+
+[33mcommit 2b195414055621adf0afb7c8efd16f04631cae71[m
+Author: = <=>
+Date:   Fri Feb 2 10:58:39 2018 +0700
+
+    end of part 7, layouts and blade
+
+[33mcommit 9c2c81038585eba17dc0b80cd888c50c60e653d6[m
+Author: = <=>
+Date:   Thu Feb 1 17:04:41 2018 +0700
+
+    end of part4
+
+[33mcommit 6dbc17b219885557b5a21c2419defcdc98f20ab4[m
+Author: = <=>
+Date:   Thu Feb 1 16:30:44 2018 +0700
+
+    install laravel

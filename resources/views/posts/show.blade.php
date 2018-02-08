@@ -24,8 +24,10 @@
                         <!--<a href="#" class="btn btn-primary btn-block">Edit</a>   (the same as above)-->
                     </div>
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('posts.destroy','Delete',[$post->id],['class' => 'btn btn-danger btn-block']) !!}
+                        {!! Form::open(['route' => ['posts.destroy',$post->id], 'method' => 'DELETE']) !!}
+                        {!! Form::Submit('Delete',['class' => 'btn btn-danger btn-block'])!!}
                         <!-- <a href="#" class="btn btn-danger btn-block">Delete</a> -->
+                        {!! Form::close() !!}
                     </div>
                 </div>
             </div>
