@@ -1,10 +1,15 @@
 <?php
 namespace App\Http\Controllers;
+
+use App\Post;
+
 class pageController extends Controller{
 
     public function getIndex(){
 
-        return view('pages.welcome');
+        $posts = Post::orderBy('created_at','DESC')->limit(4)->get();
+
+        return view('pages.welcome',compact('posts'));
 
     }
 
