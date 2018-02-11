@@ -16,6 +16,9 @@
                 {{ form::label('title','Title:') }}
                 {{ form::text('title',null, ['class' => 'form-control','required'=>'','maxlength'=>'255']) }}
 
+                {{ Form::label('slug','Slug')}}
+                {{ Form::text('slug', null, ['class'=>'form-control','required'=>'','minlength'=>'5', 'maxlength'=>'255'])}}
+
                 {{ form::label('body','Post Body:') }}
                 {{ form::textarea('body',null, ['class' => 'form-control','required'=>'']) }}
 
@@ -25,7 +28,6 @@
         </div>
 
     </div>
-
 @endsection
 @section('scripts')
     {!! Html::script('js/parsley.min.js') !!}

@@ -40,12 +40,14 @@ class postController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required | max:255' ,
+            'title' => 'required | max:255',
+            'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
             'body' => 'required'
         ]);
 
         $post = Post::create([
             'title' => request('title'),
+            'slug'=> request('slug'),
             'body' => request('body')
         ]);
 
@@ -90,12 +92,14 @@ class postController extends Controller
     {
         $this->validate($request,[
             'title' => 'required | max:255',
+            'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
             'body' => 'required'
         ]);
 
         $post = Post::find($id);
 
         $post->title = $request->input('title');
+        $post->slug = $request->input('slug');
         $post->body = $request->input('body');
 
         $post->save();
